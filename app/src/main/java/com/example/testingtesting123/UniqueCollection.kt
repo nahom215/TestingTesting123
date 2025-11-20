@@ -16,13 +16,13 @@ class UniqueCollection {
 
     /** Remove an item from the collection */
     fun remove (item: Item) {
-        collection.remove(item)
+        fun size() = collection.size
     }
 
 
     // TODO 3: Complete this function such that the pre-written Unit Test (TDD) passes
 
-    /** Clear all items from hte collection */
+    /** Clear all items from the collection */
     fun clear () {
         collection.clear()
 
